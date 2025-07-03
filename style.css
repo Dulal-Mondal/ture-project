@@ -59,6 +59,8 @@ body {
 
 .btn {
     background-color: #872BFF;
+    font-size: 14px;
+    font-weight: bold;
     border-radius: 30px;
     padding: 16px 32px;
     border: none;
@@ -105,7 +107,9 @@ body {
     width: 600px;
 }
 
-#service {
+#service,
+#story,
+#country {
     width: 87.5%;
     margin: 0 auto 120px auto;
 
@@ -146,4 +150,72 @@ body {
     font-size: 18px;
     font-weight: medium;
     color: #A8A8A8;
+}
+
+.story-card {
+
+    display: flex;
+
+    /* justify-content: space-between;
+    align-items: center; */
+    gap: 32px;
+    background-color: white;
+    padding: 48px;
+    border-radius: 24px;
+
+}
+
+/* .story-content * {
+    margin-bottom: 12px;
+
+} */
+
+.story-content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E80;
+    margin-bottom: 12px;
+}
+
+.story-content img {
+    width: 100px;
+    height: 66.6px;
+    /* margin-right: 16px; */
+    margin-bottom: 12px;
+}
+
+.story-content p {
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 24px;
+    margin-bottom: 23px;
+    color: #0E0E0E70;
+}
+
+.story-image {
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+
+}
+
+#country-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+
+}
+
+#country-card-container h3 {
+    font-size: 32px;
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid #0E0E0E15;
+    font-weight: bold;
+    color: #0E0E0E80;
+    padding: 30px;
+    cursor: pointer;
 }
