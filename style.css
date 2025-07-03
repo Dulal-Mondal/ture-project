@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+
+    min-height: 100vh;
+    background-image: linear-gradient(#FFFFFF, #EBDCFF);
+}
+
+#banner {
+
+    /* margin-top: 100px;
+    margin-bottom: 120px; */
+    margin: 100px auto 120px auto;
+    padding: 20px 30px;
+    width: 87.5%;
+    background-image: url(ture_images/hero-bg.png);
+    background-color: white;
+    border-radius: 40px;
+    border: 2px solid #872BFF10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content {
+    width: 50%;
+}
+
+
+.banner-content * {
+    margin-bottom: 20px;
+}
+
+.banner-content h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.banner-content p {
+    font-size: 18px;
+    font-weight: medium;
+    color: #A8A8A8;
+}
+
+
+.banner-content h1 span {
+    display: block;
+    color: #F411CF;
+}
+
+
+.btn {
+    background-color: #872BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-right: 10px;
+
+}
+
+.btn-2 {
+    background-color: #FFFFFF;
+    border: 1px solid #872BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    cursor: pointer;
+    color: black;
+}
+
+.heading-content {
+    text-align: center;
+}
+
+.heading-content h2 {
+    font-size: 44px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 60px;
+}
+
+.heading-content h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F411CF;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.banner-image {
+    width: 50%;
+}
+
+.banner-image img {
+    width: 600px;
+}
+
+#service {
+    width: 87.5%;
+    margin: 0 auto 120px auto;
+
+}
+
+#service-card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.service-card {
+
+    width: 280px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px;
+    text-align: center;
+
+
+}
+
+.service-card img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+.service-card h2 {
+    font-size: 28px;
+    font-weight: semibold;
+    margin-bottom: 30px;
+}
+
+.service-card p {
+    font-size: 18px;
+    font-weight: medium;
+    color: #A8A8A8;
+}
