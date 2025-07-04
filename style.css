@@ -12,6 +12,7 @@ body {
 
     min-height: 100vh;
     background-image: linear-gradient(#FFFFFF, #EBDCFF);
+    border-radius: 20px;
 }
 
 #banner {
@@ -70,6 +71,18 @@ body {
 
 }
 
+.explore-btn {
+    background-color: #872BFF;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 60px;
+}
+
 .btn-2 {
     background-color: #FFFFFF;
     border: 1px solid #872BFF;
@@ -109,7 +122,8 @@ body {
 
 #service,
 #story,
-#country {
+#country,
+#reviws {
     width: 87.5%;
     margin: 0 auto 120px auto;
 
@@ -199,6 +213,10 @@ body {
 
 }
 
+#country {
+    text-align: center;
+}
+
 #country-card-container {
     display: flex;
     justify-content: center;
@@ -218,4 +236,103 @@ body {
     color: #0E0E0E80;
     padding: 30px;
     cursor: pointer;
+}
+
+#reviws {
+    width: 90%;
+    margin: 0 auto 120px auto;
+
+}
+
+.review-content {
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+    position: relative;
+
+    margin-bottom: 60px;
+
+
+
+}
+
+.text-content {
+    margin-bottom: 58px;
+
+}
+
+.text-content p {
+    font-size: 14px;
+    font-weight: regular;
+    color: #0E0E0E80;
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 24px;
+}
+
+/* .user-review {
+    text-align: center;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    gap: 60px;
+} */
+
+.user-name {
+
+    text-align: center;
+}
+
+.user-name h3 {
+
+    font-size: 18px;
+    font-weight: semibold;
+    color: #0E0E0E80;
+}
+
+
+.user-name p {
+    font-size: 14px;
+    font-weight: regular;
+    color: #0E0E0E60;
+    margin-bottom: 8px;
+}
+
+.star img {
+    position: absolute;
+    width: 220px;
+    height: 30px;
+    bottom: 45px;
+    right: 20px;
+    opacity: 50%;
+}
+
+footer {
+    width: 100%;
+    margin: 120px auto 0 auto;
+    background-color: #F3F3F3;
+
+}
+
+.footer-content {
+
+    padding: 9px 70px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: regular;
+    color: #5B5757;
+}
+
+.social-media img {
+    width: 27px;
+    height: 27px;
+    margin: 0 15px;
+
 }
