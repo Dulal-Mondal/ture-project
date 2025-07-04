@@ -1,0 +1,163 @@
+/* laptop divice */
+
+@media screen and (max-width: 1200px) {
+
+    .banner-content h1 {
+        font-size: 48px;
+
+    }
+
+    .story-image img {
+        height: 100%;
+
+        object-fit: cover;
+        border-radius: 30px;
+    }
+}
+
+
+/* tablet divice */
+
+@media screen and (max-width: 1024px) {
+
+    #banner {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .banner-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-image {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .heading-content h4 {
+        font-size: 20px;
+    }
+
+    .heading-content h2 {
+        font-size: 38px;
+    }
+
+    #service-card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 40px;
+
+    }
+
+    .service-card {
+        max-width: 100%;
+        padding: 80px 20px;
+
+    }
+
+    .story-card {
+
+        flex-direction: column;
+    }
+
+    .story-image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .story-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    #country-card-container h3 {
+        font-size: 18px;
+
+        padding: 24px;
+    }
+
+    .star img {
+        width: 150px;
+        height: 20px;
+        bottom: 50px;
+
+    }
+
+}
+
+/* mobile divice */
+
+@media screen and (max-width: 640px) {
+
+
+    .banner-content h1 {
+        font-size: 30px;
+
+    }
+
+    .service-card h2 {
+        font-size: 24px;
+        font-weight: semibold;
+        margin-bottom: 30px;
+    }
+
+    .heading-content h2 {
+        font-size: 30px;
+    }
+
+    .story-content h2 {
+
+        font-size: 24px;
+
+    }
+
+    .story-content p {
+
+        font-size: 14px;
+
+    }
+
+    #country-card-container h3 {
+        font-size: 18px;
+        padding: 24px;
+        width: 100%;
+    }
+
+    .btn {
+        padding: 12px 24px;
+    }
+
+    .explore-btn {
+        padding: 12px 24px;
+    }
+
+    .btn-2 {
+        padding: 12px 24px;
+    }
+
+    .star img {
+        width: 100px;
+        height: 15px;
+        bottom: 55px;
+
+    }
+
+    .footer-content {
+        padding: 12px 60px;
+
+        align-items: center;
+        gap: 15px;
+        flex-direction: column-reverse;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}
