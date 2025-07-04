@@ -90,6 +90,33 @@
 
     }
 
+    #header {
+        width: 100%;
+        height: 60px;
+        padding: 0px 0px;
+
+
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    .logo img {
+        width: 280px;
+        height: 150px;
+    }
+
+
+
+    .nav ul li {
+        justify-content: space-around;
+        text-align: center;
+
+        padding: 0px 20px;
+        grid: 20px;
+    }
+
 }
 
 /* mobile divice */
@@ -160,4 +187,21 @@
     .copyright {
         font-size: 12px;
     }
+
+    .nav ul li {
+        display: none;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .hamburger {
+
+        display: flex;
+        margin-right: 20px;
+    }
+
+
+
 }

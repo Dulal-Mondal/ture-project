@@ -400,11 +400,20 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
 
 }
 
 .nav ul li {
     list-style: none;
     color: white;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger img {
+    width: 30px;
+    height: 30px;
 }
